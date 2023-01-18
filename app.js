@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const app = express()
 
 app.use(bodyParser.urlencoded({extended: true}))
+app.use(express.static('public'))
 
 
 app.get('/', (req, res) => {
@@ -47,6 +48,6 @@ app.post('/', (req, res) => {
 
 
 
-app.listen('3000', () => {
+app.listen(process.env.POST || 3000, () => {
     console.log('Server is running at Port 3000.');
 })
