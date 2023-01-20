@@ -19,8 +19,7 @@ body {
 }
 
 .container {
-    padding-top: 15%;
-    height: 100vh;
+    padding-top: 5%;
     margin: 0 4em;
 }
 
@@ -66,6 +65,54 @@ p {
     color: rgb(146, 143, 143);
 }
 
-::placeholder {
+/* ::placeholder {
 
+} */
+
+a {
+    text-decoration: none;
+    color: rgba(27, 126, 27, 0.856);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4% 4%;
+    position: relative; 
+    left: -31%;
+    top: -5%;
+}
+
+img {
+    width: 1.5em;
+}
+
+@media (max-width: 575px) {
+    a {
+        font-size: 1em;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .logo {
+        margin: 7% 6%;
+        text-align: center;
+        left: 0;
+        top: 5%;
+    }
+
+    .container {
+        padding-top: 25%;
+        margin: 0 4em;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 70%;
+    }
+    
 }
