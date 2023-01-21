@@ -11,10 +11,14 @@
 
             <form action="/" method="post">
                 <label for="cityInput">Enter City Name</label>
-                <input type="text" name="cityName" id="cityInput" placeholder="E.g Lagos">
+                <input type="text" name="cityName" id="cityInput" placeholder="E.g Lagos" required>
                 <button type="submit">Go</button>
             </form>  
 
+          </div>
+
+          <div id="openweathermap-widget-15" class="widget"></div>
+<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 15,cityid: '4517009',appid: 'd73af229da4765abb090ad0caff333fa',units: 'metric',containerid: 'openweathermap-widget-15',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
 
             
 <%- include ('footer') -%>

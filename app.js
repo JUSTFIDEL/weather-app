@@ -23,7 +23,7 @@ app.post('/', (req, res) => {
      const unit = 'metric';
      const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + country + '&appid=' + appId + '&units=' + unit; 
      
-
+     https://api.openweathermap.org/geo/1.0/direct?q=uk&limit=5&appid=d73af229da4765abb090ad0caff333fa
     
     https.get(url, (response) => {
         // console.log(response.statusCode);

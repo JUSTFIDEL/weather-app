@@ -30,12 +30,12 @@ form {
 }
 
 input {
-    height: 2.5em;
+    height: 3em;
     outline: none;
     border: none;
     border-radius: 5px;
     padding: 1em 1.5em;
-    margin: 5px auto;
+    margin: 5px 5px;
     min-width: 250px;
     box-shadow: 2px 3px #d1d0d077;
 }
@@ -45,7 +45,7 @@ button {
     background: rgb(34, 156, 34);
     color: aliceblue;
     font-weight: bold;
-    height: 2.5em;
+    height: 3em;
     width: 5em;
     padding: auto 1.5em;
     border: none;
@@ -58,7 +58,7 @@ button {
 
 footer {
     text-align: center;
-    margin-top: 100%;
+    margin-top: 50%;
 }
 
 p {
@@ -77,11 +77,15 @@ a {
     margin-left: 10px;
 }
 
+.widget {
+    margin-top: 25px;
+}
+
 .logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 4% 4%;
+    padding: 2% 4%;
     position: relative; 
     left: -31%;
     top: -5%;
@@ -114,26 +118,30 @@ a {
 
 @media (max-width: 575px) {
     a {
-        font-size: 1em;
+        font-size: 1.3em;
         font-weight: bold;
         margin-left: 10px;
     }
 
     .logo {
-        margin: 7% 6%;
+        margin: 3% 3%;
         text-align: center;
         left: 0;
         top: 5%;
     }
 
+    .img-logo {
+        width: 1.4em;
+    }
+
     .container {
-        padding-top: 25%;
+        padding-top: 5%;
         margin: 0 4em;
     }
 
     footer {
         text-align: center;
-        margin-top: 70%;
+        margin-top: 90%;
     }
     
 }
